@@ -1,12 +1,135 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-        "http://www.w3.org/TR/html4/loose.dtd">
-<html>
+<!DOCTYPE html>
+
+<html lang="en">
+
 <head>
-    <title>Sample Web</title>
-    <script src="app.js"></script>
-    <link rel="stylesheet" href="./css/style.css" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OBI|Micro Ops</title>
+  <!-- External Styling-->
+  <link rel="stylesheet" href="css/app.css">
+  
+  <script src="//cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/semantic-ui@2.4.1/dist/semantic.min.js"></script>
+  <script src="js/app.js"></script>
+  <!-- <script src="js/global.js"></script> -->
 </head>
+
 <body>
- <h1> This is a sample web page</h1>
+  <!-- Following Menu -->
+  <div class="ui large top fixed hidden menu">
+    <div class="ui container">
+      <a class="active item">Home</a>
+      <a class="item">About</a>
+      <a class="item">Work</a>
+      <!-- <a class="item">Careers</a> -->
+      <div class="right menu">
+        <div class="item">
+          <a class="ui inverted button"><i class="facebook icon" style="margin-left: 5px;"></i></a>
+        </div>
+        <div class="item">
+          <a class="ui inverted button"><i class="instagram icon" style="margin-left: 5px;"></i></a>
+        </div>
+        <div class="item">
+          <a class="ui inverted button"><i class="twitter icon" style="margin-left: 5px;"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Sidebar Menu -->
+  <div class="ui vertical inverted sidebar menu">
+    <a class="active item">Home</a>
+    <a class="item">About</a>
+    <a class="item">Work</a>
+    <!-- <a class="item">Careers</a> -->
+    
+  <div style="margin-top: 15%; margin-left:7%;">
+    <a class="ui inverted button"><i class="facebook icon" style="margin-left: 5px;"></i></a>
+    <a class="ui inverted button"><i class="instagram icon" style="margin-left: 5px;"></i></a>
+    <a class="ui inverted button"><i class="twitter icon" style="margin-left: 5px;"></i></a>
+  </div>
+  </div>
+  <!-- Page Contents -->
+  <div class="pusher">
+    <div class="ui inverted vertical masthead center aligned segment">
+      <div class="ui container">
+        <div class="ui large secondary inverted pointing menu">
+          <a class="toc item">
+            <i class="sidebar icon"></i>
+          </a>
+          <a class="active item">Home</a>
+          <a class="item">About</a>
+          <a class="item">Work</a>
+          <!-- <a class="item">Careers</a> -->
+          <div class="right item">
+            <a><i class="facebook icon" style="margin-left: 5px;"></i></a>
+            <a><i class="instagram icon" style="margin-left: 5px;"></i></a>
+            <a><i class="twitter icon" style="margin-left: 5px;"></i></a> 
+          </div>
+        </div>
+      </div>
+      <div class="ui text container">
+        <h1 class="ui inverted header">
+          Welcome to <b>OBI</b>|Micro Ops
+        </h1>
+        <h2>Where we make it work, Only better!</h2>
+        <div class="ui huge primary button">Contact Us <i class="mail icon" style="margin-left: 5px;"></i></div>
+      </div>
+    </div>
+    <div class="ui vertical stripe segment">
+      <div class="ui middle aligned stackable grid container">
+        <div class="row">
+          <div class="eight wide column">
+            <h3 class="ui header">Software Development and Branding Design:</h3>
+            <p>We help support your growth by developing your website, web applications & mobile applications for a solid online presence and designing, modeling & animating your logo.<p>
+              
+            <h3 class="ui header">Hardware, Internet and Network Support:</h3>
+            <p>We deal in hardware diagnosis, repair & maintenance, networking cabling, device configurations and setup.</p>
+          </div>
+          <div class="six wide right floated column">
+            <img src="resources/images/obi_logo.png" class="ui large bordered rounded image">
+          </div>
+        </div>
+        <div class="row">
+          <div class="center aligned column">
+            <a class="ui huge button">Check Out Our Work</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- @Import Div -->
+
+<div class="ui inverted vertical footer segment">
+      <div class="ui container">
+        <div class="ui stackable inverted divided equal height stackable grid">
+          <div class="three wide column">
+            <h4 class="ui inverted header">About</h4>
+            <div class="ui inverted link list">
+              <a href="#" class="item">Roadmap</a>
+              <a href="#" class="item">Recent Works</a>
+              <a href="#" class="item">Contact Us</a>
+              <a href="#" class="item">Plans</a>
+            </div>
+          </div>
+          <div class="four wide column">
+            <h4 class="ui inverted header">Services</h4>
+            <div class="ui inverted link list">
+              <a href="#" class="item">Software Development</a>
+              <a href="#" class="item">Internet and Networks </a>
+              <a href="#" class="item">Hardware Support </a>
+              <a href="#" class="item">Branding and Design </a>
+            </div>
+          </div>
+          <div class="six wide column">
+            <h4 class="ui inverted header">Pending **</h4>
+            <p>Extra space for a call to action inside the footer that could help re-engage users.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
+
 </html>
