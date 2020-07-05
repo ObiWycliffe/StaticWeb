@@ -1,4 +1,4 @@
-/* Fundction to Append External Scripts */
+/* Function to Append External Scripts */
 
 function include(file) {
 
