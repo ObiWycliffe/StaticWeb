@@ -229,11 +229,18 @@
 		}		
 	}
 	
+
+
 /*********************************************************************************/
-/* 1000px (> 480px && < 1200px)                                                  */
+/* 1000px (> 1024px && < 1200px)                                                  */
 /*********************************************************************************/
 
-	@media only screen and (max-width: 1199px) and (min-width: 481px) {
+	@media only screen and (max-width: 1199px) and (min-width: 1025px) {
+
+		#foot {
+			background-repeat: no-repeat;
+			background-color: #000;
+		}
 
 		#slider {
 			width: 1000px;
@@ -265,12 +272,106 @@
 		}		
 		
 	}
+
+
+
+	/*********************************************************************************/
+	/* 700px (> 768px && < 1025px)                                                  */
+	/*********************************************************************************/
+
+	@media only screen and (max-width: 1024px) and (min-width: 769px) {
+
+		#foot {
+			background-repeat: no-repeat;
+			background-color: #000;
+		}
+
+		#slider {
+			width: 100%;
+		}
+		
+		#slider .viewer {
+			width: 100%;
+			height: 300px;
+		}
+		
+		#slider .viewer .reel {
+			display: none;
+			height: 300px;
+		}			
+		
+		#slider .viewer .reel .slide {
+			width: 964px;
+			height: 300px;
+			position: relative;
+		}	
+		
+		#slider .viewer .reel .slide img {
+			max-width: 964px;
+			/*height: 100%;*/
+		}	
+		
+		.sidebar section {
+			margin-bottom: 20px;
+		}
+		
+	}
+
+
+
+	/*********************************************************************************/
+	/* 400px (> 480px && < 769px)                                                  */
+	/*********************************************************************************/
+
+	@media only screen and (max-width: 768px),(max-width: 800px) and (min-width: 481px) {
+
+		.screen-width {
+			max-width: 728px;
+		}
+
+		#foot {
+			background-repeat: no-repeat;
+			background-color: #000;
+		}
+
+		#slider {
+			width: 100%;
+		}
+		
+		#slider .viewer {
+			width: 100%;
+			height: 300px;
+		}
+		
+		#slider .viewer .reel {
+			display: none;
+			height: 300px;
+		}			
+		
+		#slider .viewer .reel .slide {
+			width: 724px;
+			height: 300px;
+			position: relative;
+		}	
+		
+		#slider .viewer .reel .slide img {
+			max-width: 724px;
+			/*height: 100%;*/
+		}	
+		
+		.sidebar section {
+			margin-bottom: 20px;
+		}
+		
+	}
 	
+
+
 /*********************************************************************************/
-/* Mobile (<= 480px)                                                             */
+/* 300px (> 319px && < 481px)                                                              */
 /*********************************************************************************/
 
-	@media only screen and (max-width: 480px) {
+	@media only screen and (max-width: 480px) and (min-width: 320px) {
 	
 		#min h1 {
 			font-size: 30px;
@@ -281,6 +382,23 @@
 
 		#min h2 {
 		  font-size: 15px;
+		}
+
+		.screen-width {
+			max-width: 444px;
+		}
+
+		#foot {
+			background-repeat: no-repeat;
+			background-color: #000;
+		}
+
+		.mobile-slider {
+			display: none;
+		}
+
+		.pdtop {
+			padding-top: 15px;
 		}
 
 		.social {
@@ -337,3 +455,92 @@
 		
 		
 	}
+
+
+
+	/*********************************************************************************/
+	/* Mobile (<= 319px)                                                             */
+	/*********************************************************************************/
+
+	@media only screen and (max-width: 319px) {
+	
+		#min h1 {
+			font-size: 30px;
+		}
+
+		#min h2 {
+		  font-size: 15px;
+		}
+
+		.screen-width {
+			max-width: 285px;
+		}
+
+		#foot {
+			background-repeat: no-repeat;
+			background-color: #000;
+		}
+
+		.mobile-slider {
+			display: none;
+		}
+
+		.pdtop {
+			padding-top: 15px;
+		}
+
+		.social {
+			top: -10px;
+		}
+		
+		#menu li {
+			padding: 0 10px;
+		}		
+		
+		#slider {
+			width: 100%;
+			padding-bottom: 0px;
+		}
+		
+		#slider .viewer {
+			width: 95%;
+			height: 120px;
+		}	
+		
+		#slider .viewer .reel {
+			display: none;
+			height: 138px;
+		}			
+		
+		#slider .viewer .reel .slide {
+			width: 300px;
+			height: 120px;
+			position: relative;
+		}	
+		
+		#slider .viewer .reel .slide img {
+			max-width: 300px;
+			height: 100%;
+		}	
+		
+		.sidebar section {
+			margin-bottom: 5px;
+		}		
+		
+		
+		
+		
+		
+		#fwt_poptrox li {
+			width: 31.5%;
+			margin: 0 1% 0 0;
+			display: inline-block;
+		}
+		
+		#fwt_poptrox li:nth-child(3n+3) {
+			margin-right: 0;
+		}		
+		
+		
+	}
+	

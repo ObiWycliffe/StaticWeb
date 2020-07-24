@@ -72,6 +72,8 @@
   display: none;
 }
 
+/*  General | Global Media Screen Query   */
+
 @media only screen and (max-width: 700px) {
   .ui.fixed.menu {
     display: none !important;
